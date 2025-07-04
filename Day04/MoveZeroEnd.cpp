@@ -29,9 +29,4 @@ using namespace std;
         cout<<val<<" ";
     }
  return 0;
-<<<<<<< HEAD
   }
-day3
-=======
-  }
->>>>>>> c5c5653 (day4)
