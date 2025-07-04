@@ -32,7 +32,7 @@ int main() {
     nextPermutation(arr);
 
     for(int val : arr) {
-        cout << << val << " ";
+        cout << val << " ";
     }
 
     return 0;
