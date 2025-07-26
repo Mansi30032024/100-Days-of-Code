@@ -40,34 +40,12 @@ void print(Node* head){
   }
   cout<<endl;
 }
-Node* deleteHead(Node* head){
-  Node* prev=head;
-  head = head->next;
-  prev->next = nullptr;
-  delete prev;
-  return head;
-}
-Node* deleteTail(Node* head){
- Node* prev = head;
- while(prev->next->next != NULL){
-    prev = prev->next;
- } 
- prev->next->back = nullptr;
- 
-      free(prev->next);
 
-      
-  return head;
-}
 int main(){
 
   vector<int> arr ={2,3,4,5,9};
   Node* head = convertAr(arr);
   print(head);
-  head = deleteHead(head);
-  print(head);
-
-  head = deleteTail(head);
-  print(head);
+ 
   return 0;
 }
