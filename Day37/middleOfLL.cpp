@@ -1,4 +1,4 @@
-//Tortoise and Horse
+//Tortoise and Hare
 //One Pass
 class Solution {
 public:
