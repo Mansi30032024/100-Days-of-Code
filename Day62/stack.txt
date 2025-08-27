@@ -1,0 +1,20 @@
+ Revision (Stack & Queue)
+
+Stack: Next Greater Element
+ - push(), pop(), top()
+ - use stack to find next greater element for each index
+ - key: traverse from right → maintain decreasing stack
+
+ Stack: Min Stack
+  - push(x): push element + track minimum
+  - pop(): remove element, update min if needed  
+  - getMin(): O(1) using auxiliary stack
+  - key: maintain 2 stacks (main + min stack)
+
+
+ Queue: Circular Queue
+ - enQueue(x): add element at rear (mod capacity)
+  - deQueue(): remove element from front
+  - Front(), Rear()
+ - isEmpty(), isFull()
+ - key: (rear+1) % size == front → full condition
