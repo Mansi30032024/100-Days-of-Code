@@ -1,0 +1,21 @@
+ Revision (Linked List)
+
+ Reverse Linked List
+ 
+Operations: prev, curr, next pointers
+Iterative: move one by one, reverse links
+Recursive: reverse rest, fix head->next
+  handle NULL or single node safely
+
+Detect Cycle in Linked List (Floyd’s Cycle Detection)
+
+ Operations: slow = slow->next, fast = fast->next->next
+If slow == fast → cycle found
+ O(n), constant space, fast & slow pointer trick
+
+Merge Two Sorted Lists
+
+Operations: compare l1->val and l2->val
+Attach smaller node to result, move pointer
+Continue until one list ends, then attach the rest
+use dummy head node to simplify logic
