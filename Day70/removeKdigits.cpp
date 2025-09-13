@@ -2,7 +2,7 @@ class Solution {
 public:
     string removeKdigits(string num, int k) {
         string st;
-        for (char d : num) {//O(N)
+        for (char digit : num) {//O(N)
             while (!st.empty() && k > 0 && st.back() > digit) {
                 st.pop_back();
                 k--;
