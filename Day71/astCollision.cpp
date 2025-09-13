@@ -21,3 +21,5 @@ public:
         return st;
     }
 };
+//TC: O(N)
+//SC: O(N)
